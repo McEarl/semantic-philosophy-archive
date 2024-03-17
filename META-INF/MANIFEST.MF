@@ -1,0 +1,6 @@
+
+id:semantic-philosophy-archive
+ns:https://github.com/McEarl/semantic-philosophy-archive
+narration-base:https://github.com/McEarl/semantic-philosophy-archive
+url-base:https://github.com/McEarl/semantic-philosophy-archive
+format:stex
