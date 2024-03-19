@@ -35,3 +35,8 @@ _region_.tex
 .DS_Store
 *~
 *.fdb_latexmk
+content/*
+errors/*
+export/*
+narration/*
+relational/*
