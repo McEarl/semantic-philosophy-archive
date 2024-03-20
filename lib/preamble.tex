@@ -1,7 +1,45 @@
 \usepackage[super]{nth}
 \usepackage{csquotes}
+\usepackage{xurl}
 
-\usepackage{biblatex}
+
+% Hyperref
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue
+}
+
+
+% BibTeX
+
+\usepackage[backend=bibtex]{biblatex}
 \addmhbibresource{bibliography}
 
-\newcommand{\metadata}[1]{}
+
+% Customizing sTeX Typesetting
+
+\renewcommand\symrefemph[1]{\textcolor{cyan}{#1}}
+\renewcommand\compemph[1]{\textcolor{cyan}{#1}}
+\renewcommand\defemph[1]{\textcolor{magenta}{#1}}
+\renewcommand\varemph[1]{\textcolor{gray}{#1}}
+\stexstyleparagraph{\ifx\thistitle\empty\else\noindent\textbf{\thistitle.}\fi}{}
+
+
+% Licensing
+
+% \license{writing}{reference}{license}{year}{editor}
+\newcommand{\license}[5]{
+  \section*{License}
+  This edition of #1, based on \cite{#2}, is licensed under #3
+  (\textcopyright{} #4 #5).
+}
+
+\newcommand{\CcZero}{\href{http://creativecommons.org/publicdomain/zero/1.0}{ CC0 1.0}}
+\newcommand{\CcBy}{\href{http://creativecommons.org/licenses/by/4.0}{CC BY 4.0}}
+\newcommand{\CcBySa}{\href{http://creativecommons.org/licenses/by-sa/4.0}{CC BY-SA 4.0}}
+\newcommand{\CcByNd}{\href{http://creativecommons.org/licenses/by-nd/4.0}{CC BY-ND 4.0}}
+\newcommand{\CcByNc}{\href{http://creativecommons.org/licenses/by-nc/4.0}{CC BY-NC 4.0}}
+\newcommand{\CcByNcSa}{\href{http://creativecommons.org/licenses/by-nc-sa/4.0}{CC BY-NC-SA 4.0}}
+\newcommand{\CcByNcNd}{\href{http://creativecommons.org/licenses/by-nc-nd/4.0}{CC BY-NC-ND 4.0}}
