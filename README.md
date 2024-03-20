@@ -9,4 +9,5 @@ A collection of semantically annotated philosophical writings
 
   * [Letter to Idomeneus](source/writings/raw/epicurus/letter-to-idomeneus_1925_hicks.en.en.tex)
   * [Letter to Menoeceus](source/writings/raw/epicurus/letter-to-menoeceus_1925_hicks.en.tex)
+  * [Principal Doctrines](source/writings/raw/epicurus/principal-doctrines_1925_hicks.en.tex)
   * [Vatican Sayings](source/writings/raw/epicurus/vatican-sayings_1926_bailey.en.tex)
