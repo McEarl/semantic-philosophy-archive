@@ -1,0 +1,21 @@
+\documentclass{stex}
+\libinput{preamble}
+\begin{document}
+\IfInputref{
+  \inputref{writings/raw/epicurus/last-will/hicks_1925.en}
+}{
+  \usemodule{glossary/writings/epicurus?last-will}
+  \usemodule{glossary/persons?epicurus}
+  \title{\sn{Last Will}}
+  \author{\sn{Epicurus}}
+  \date{}
+  \maketitle
+  \inputref{writings/raw/epicurus/last-will/hicks_1925.en}
+  \license{\sn{Epicurus}' \sn{Last Will}}
+    {1925_Hicks_LivesAndOpinionsOfEminentPhilosophers}
+    {\CcByNcSa}
+    {2024}
+    {\href{https://github.com/McEarl}{Marcel Schütz}}
+  \printbibliography
+}
+\end{document}

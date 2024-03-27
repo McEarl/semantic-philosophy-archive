@@ -1,0 +1,21 @@
+\documentclass{stex}
+\libinput{preamble}
+\begin{document}
+\IfInputref{
+  \inputref{writings/raw/epicurus/letter-to-idomeneus/hicks_1925.en}
+}{
+  \usemodule{glossary/writings/epicurus?letter-to-idomeneus}
+  \usemodule{glossary/persons?epicurus}
+  \title{\sn{Letter to Idomeneus}}
+  \author{\sn{Epicurus}}
+  \date{}
+  \maketitle
+  \inputref{writings/raw/epicurus/letter-to-idomeneus/hicks_1925.en}
+  \license{\sn{Epicurus}' \sn{Letter to Idomeneus}}
+    {1925_Hicks_LivesAndOpinionsOfEminentPhilosophers}
+    {\CcByNcSa}
+    {2024}
+    {\href{https://github.com/McEarl}{Marcel Schütz}}
+  \printbibliography
+}
+\end{document}
